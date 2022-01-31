@@ -1,49 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: Montserrat;
 }
- .main{
-     width: 100%;
-     height: 100vh;
-     background-image: url(./images2/assets/hero-cover.png);
-     background-repeat: no-repeat;
-     background-size: cover;
- }
 
- #overlay{
-        position: fixed;
-        overflow: auto;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgb(0, 0, 0, 0.5);
-        z-index: 2;
- }
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images2/assets/hero-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.navigation{
+#overlay {
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   
+    padding: 25px;
+
 }
 
-.center-link>ul{
+.center-link>ul {
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.center-link>ul>li{
+.center-link>ul>li {
     padding: 10px;
     list-style-type: none;
 }
 
-.center-link>ul>li>a{
+.center-link>ul>li>a {
     text-decoration: none;
     color: white;
+}
+
+.end-link>ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7px;
+}
+
+.end-link>ul>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.end-link>ul>li>a {
+    text-decoration: none;
+    color: white;
+
+}
+.end-link>ul>button{
+    background-color: #23A6F0;
+    color: white;
+    list-style-type: none;
+   border: none;
+}
+
+.end-link>ul>button>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.hero{
+    text-align: center;
+    margin: 25px;
+}
+
+.hero h1{
+    margin-top: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+.hero p{
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.hero>ul{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+   
+}
+
+.hero .Pbuttons ul{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+justify-content: center;
+padding: 15px;
+
+}
+.hero .Pbuttons ul li button{
+    background-color: #23A6F0;
+    border-radius: 20px;
+    margin: 15px;
+    justify-content: space-between;
+    padding: 13px;
+    color: white;
+    border: none;
+}
+.hero .Abuttons ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    padding: 15px;
+}
+.hero .Abuttons ul li button{
+color: black;
+width: 230px;
+height: 30;
+margin: 15px;
+border: none;
+}
+
+.hero .Abuttons ul li button span{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.hero .Abuttons ul li button p{
+    color: black;
+    font-size: 10px;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    margin: 200px;
+    justify-content: space-between; 
+    font-size: 10px;   
+}
+
+#tag1 h3{
+    font-weight: 900
 }
