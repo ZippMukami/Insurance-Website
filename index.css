@@ -67,52 +67,54 @@
     color: white;
 
 }
-.end-link>ul>button{
+
+.end-link>ul>button {
     background-color: #23A6F0;
     color: white;
     list-style-type: none;
-   border: none;
+    border: none;
 }
 
-.end-link>ul>button>li>a{
+.end-link>ul>button>li>a {
     text-decoration: none;
     color: white;
     padding: 5px;
 }
 
-.hero{
+.hero {
     text-align: center;
     margin: 25px;
 }
 
-.hero h1{
+.hero h1 {
     margin-top: 100px;
     font-size: 40px;
     color: white;
 }
 
-.hero p{
+.hero p {
     padding: 40px;
     color: white;
     font-size: 20px;
 }
 
-.hero>ul{
+.hero>ul {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     align-items: center;
-   
-}
-
-.hero .Pbuttons ul{
-display: flex;
-flex-direction: row;
-list-style-type: none;
-justify-content: center;
-padding: 15px;
 
 }
-.hero .Pbuttons ul li button{
+
+.hero .Pbuttons ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.hero .Pbuttons ul li button {
     background-color: #23A6F0;
     border-radius: 20px;
     margin: 15px;
@@ -121,40 +123,135 @@ padding: 15px;
     color: white;
     border: none;
 }
-.hero .Abuttons ul{
+
+.hero .Abuttons ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: center;
     padding: 15px;
 }
-.hero .Abuttons ul li button{
-color: black;
-width: 230px;
-height: 30;
-margin: 15px;
-border: none;
+
+.hero .Abuttons ul li button {
+    color: black;
+    width: 230px;
+    height: 30;
+    margin: 15px;
+    border: none;
 }
 
-.hero .Abuttons ul li button span{
+.hero .Abuttons ul li button span {
     color: black;
     font-weight: 700;
     font-size: 15px;
 }
 
-.hero .Abuttons ul li button p{
+.hero .Abuttons ul li button p {
     color: black;
     font-size: 10px;
 }
 
-.benefits{
+.benefits {
     display: flex;
     flex-direction: row;
     margin: 200px;
-    justify-content: space-between; 
-    font-size: 10px;   
+    justify-content: space-between;
+    font-size: 10px;
 }
 
-#tag1 h3{
-    font-weight: 900
+.Page3 {
+    background-color: rgb(0, 0, 0, 0.05);
 }
+
+
+.Page3 .Industry .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Page3 .Industry .intro h1 {
+    font-weight: 900;
+}
+
+.Page3>.Industry .intro p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.Page3 .Industry .Profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 100px;
+}
+    .Page3 .Industry .Profile img {
+        width: 110px;
+        height: auto;
+        align-items: center;
+        margin-left: 20px;
+        
+    }
+
+    .Page3 .Industry .Profile .profile1 {
+        background-color: white;
+        padding: 10px;
+        justify-content: space-around;
+        border: 1px solid white;
+        width: 160px;
+        height: auto;
+    }
+
+    .Page3 .Industry .Profile p {
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Page3 .Industry .Profile .img2 img {
+        width: 70px;
+        height: 20px;
+        padding: 10px;
+
+    }
+
+    .Page3 .Industry .Profile .profile2{
+        background-color: white;
+        padding: 10px;
+        justify-content: space-around;
+        border: 1px solid white;
+        width: 160px;
+        height: auto;
+
+    }
+
+    .Page3 .Industry .Profile .profile3{
+        background-color: white;
+        padding: 10px;
+        justify-content: space-around;
+        border: 1px solid white;
+        width: 160px;
+        height: auto;
+
+    }
+
+    .Page3 .Industry .logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .Page3 .Industry .logos img{
+        width: 35px;
+        height: 35px;
+        padding: 50px;
+    }
+
+    .Page3 .Industry .bar{
+        width: 800px;
+        height: 300px;
+    }
