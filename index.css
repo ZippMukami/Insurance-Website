@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -117,7 +117,7 @@
 .hero .Pbuttons ul li button {
     background-color: #23A6F0;
     border-radius: 20px;
-    margin: 15px;
+    margin-left: 20px;
     justify-content: space-between;
     padding: 13px;
     color: white;
@@ -129,7 +129,6 @@
     flex-direction: row;
     list-style-type: none;
     justify-content: center;
-    padding: 15px;
 }
 
 .hero .Abuttons ul li button {
@@ -169,6 +168,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-top: 50px;
 
 }
 
@@ -188,70 +188,430 @@
     padding: 10px;
     margin: 100px;
 }
-    .Page3 .Industry .Profile img {
-        width: 110px;
-        height: auto;
-        align-items: center;
-        margin-left: 20px;
-        
-    }
 
-    .Page3 .Industry .Profile .profile1 {
-        background-color: white;
-        padding: 10px;
-        justify-content: space-around;
-        border: 1px solid white;
-        width: 160px;
-        height: auto;
-    }
+.Page3 .Industry .Profile img {
+    width: 110px;
+    height: auto;
+    align-items: center;
+    margin-left: 20px;
 
-    .Page3 .Industry .Profile p {
-        font-size: 10px;
-        font-weight: 500;
-        text-align: center;
-    }
+}
 
-    .Page3 .Industry .Profile .img2 img {
-        width: 70px;
-        height: 20px;
-        padding: 10px;
+.Page3 .Industry .Profile .profile1 {
+    background-color: white;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid white;
+    width: 160px;
+    height: auto;
+}
 
-    }
+.Page3 .Industry .Profile p {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+}
 
-    .Page3 .Industry .Profile .profile2{
-        background-color: white;
-        padding: 10px;
-        justify-content: space-around;
-        border: 1px solid white;
-        width: 160px;
-        height: auto;
+.Page3 .Industry .Profile .img2 img {
+    width: 70px;
+    height: 20px;
+    padding: 10px;
 
-    }
+}
 
-    .Page3 .Industry .Profile .profile3{
-        background-color: white;
-        padding: 10px;
-        justify-content: space-around;
-        border: 1px solid white;
-        width: 160px;
-        height: auto;
+.Page3 .Industry .Profile .profile2 {
+    background-color: white;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid white;
+    width: 160px;
+    height: auto;
 
-    }
+}
 
-    .Page3 .Industry .logos{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    }
+.Page3 .Industry .Profile .profile3 {
+    background-color: white;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid white;
+    width: 160px;
+    height: auto;
 
-    .Page3 .Industry .logos img{
-        width: 35px;
-        height: 35px;
-        padding: 50px;
-    }
+}
 
-    .Page3 .Industry .bar{
-        width: 800px;
-        height: 300px;
-    }
+.Page3 .Industry .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Page3 .Industry .logos img {
+    width: 35px;
+    height: 35px;
+    padding: 50px;
+}
+
+.Page3 .Industry #bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    margin-left: 350px;
+    width: 700px;
+    height: 70px;
+    padding-top: 20px;
+    background-image: linear-gradient(to right, rgb(14, 58, 124), rgb(170, 7, 116));
+}
+
+.Page3 .Industry #bar p {
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 5px;
+
+
+}
+
+.Page3 .Industry #bar button {
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    margin-right: 0;
+
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.pricing h3{
+    text-align: center;
+}
+ .pricing p{
+     text-align: center;
+     font-size: 13px;
+ }
+
+ .Page3 .Services{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-top: 20px;
+ }
+
+ .Services .free{
+     margin: 15px;
+     padding: 50px;
+     width: 150px;
+     height: 350px;
+     border: 2px solid #23A6F0;
+     align-items: center;
+     border-radius: 5px;
+
+ }
+
+ .Services .free h1{
+     text-align: center;
+     padding: 10px;
+     font-size: 20px;
+     font-weight: 900;
+ }
+
+ .Services .free p{
+     font-weight: 700;
+     text-align: center;
+ }
+
+ .Services .free .all .integers{
+     padding: 5px;
+     font-size: 30px ;
+     font-weight: 900;
+ }
+ .Services .free .all .curr{
+     color: #23A6F0;
+     font-weight: 900;
+ }
+ .Services .free .all .rate{
+     justify-content: center;
+     text-align: center;
+     padding-top: 10px;
+ }
+ .Services .free .all{
+    color: #23A6F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding-top: 5px;   
+    padding-bottom: 5px;
+
+ }
+
+ .Services .free .lst ul li{
+list-style-type: symbols();
+ }
+
+ .Services .free button{
+     margin-top: 5px;
+     justify-content: center;
+     width: 170px;
+     padding: 10px;
+     background-color: #23A6F0;
+     border-radius: 5px;
+     color: white;
+ }
+
+
+
+
+ .Services .standard{
+     padding-top: 30px;
+
+     background-color: #252B42;
+
+     color: white;
+
+    margin: 15px;
+
+    padding: 50px;
+
+    width: 150px;
+
+    height: 350px;
+
+    border: 2px solid #23A6F0;
+
+    align-items: center;
+
+    border-radius: 5px;
+
+
+
+}
+
+
+
+.Services .standard h1{
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 20px;
+
+    font-weight: 900;
+
+}
+
+
+
+.Services .standard p{
+
+    font-weight: 700;
+
+    text-align: center;
+
+}
+
+
+
+.Services .standard .all .integers{
+
+    padding: 5px;
+
+    font-size: 30px ;
+
+    font-weight: 900;
+
+}
+
+.Services .standard .all .curr{
+
+    color: #23A6F0;
+
+    font-weight: 900;
+
+}
+
+.Services .standard .all .rate{
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding-top: 10px;
+
+}
+
+.Services .standard .all{
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+   color: #23A6F0;
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: center;    
+
+
+
+}
+
+
+
+.Services .standard .lst ul li{
+
+list-style-type: symbols();
+
+}
+
+
+
+.Services .standard button{
+
+    margin-top: 5px;
+
+    justify-content: center;
+
+    width: 170px;
+
+    padding: 10px;
+
+    background-color: #23A6F0;
+
+    border-radius: 5px;
+
+    color: white;
+}
+
+.Services .premium{
+
+    margin: 15px;
+
+    padding: 50px;
+
+    width: 150px;
+
+    height: 350px;
+
+    border: 2px solid #23A6F0;
+
+    align-items: center;
+
+    border-radius: 5px;
+
+
+
+}
+
+
+
+.Services .premium h1{
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 20px;
+
+    font-weight: 900;
+
+}
+
+
+
+.Services .premium p{
+
+    font-weight: 700;
+
+    text-align: center;
+
+}
+
+
+
+.Services .premium .all .integers{
+
+    padding: 5px;
+
+    font-size: 30px ;
+
+    font-weight: 900;
+
+}
+
+.Services .premium .all .curr{
+
+    color: #23A6F0;
+
+    font-weight: 900;
+
+}
+
+.Services .premium .all .rate{
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding-top: 10px;
+
+}
+
+.Services .premium .all{
+
+   color: #23A6F0;
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: center;   
+   padding-top: 5px; 
+   padding-bottom: 5px;
+
+
+
+}
+
+
+
+.Services .premium .lst ul li{
+
+list-style-type: symbols();
+
+}
+
+
+
+.Services .premium button{
+
+    margin-top: 5px;
+
+    justify-content: center;
+
+    width: 170px;
+
+    padding: 10px;
+
+    background-color: #23A6F0;
+
+    border-radius: 5px;
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+
